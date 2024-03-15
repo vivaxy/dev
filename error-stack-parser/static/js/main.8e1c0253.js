@@ -1,4 +1,4 @@
-/*! For license information please see main.dc8b1994.js.LICENSE.txt */
+/*! For license information please see main.8e1c0253.js.LICENSE.txt */
 (() => {
   var e = {
       7531: (e) => {
@@ -51278,7 +51278,7 @@
       function c(e) {
         let { value: t, onChange: n } = e;
         return (0, l.jsx)('textarea', {
-          className: 'textarea textarea-bordered w-full mt-4 text-sm',
+          className: 'textarea textarea-bordered w-full mt-4 text-xs',
           placeholder: 'Error stacks',
           onChange: function (e) {
             n(e.target.value);
@@ -51294,7 +51294,7 @@
           onParse: r,
         } = e;
         return (0, l.jsxs)('div', {
-          className: 'flex',
+          className: 'flex mt-4',
           children: [
             (0, l.jsxs)('label', {
               className:
@@ -51336,8 +51336,7 @@
               className: 'loading loading-infinity loading-lg',
             })
           : n
-            ? (0, l.jsx)('div', {
-                className: 'mt-4',
+            ? (0, l.jsx)(l.Fragment, {
                 children: n.map(function (e, t) {
                   function n(e) {
                     i({
@@ -51355,11 +51354,14 @@
                       children: [
                         (0, l.jsxs)('summary', {
                           className:
-                            'collapse-title text-xs p-2 h-8 min-h-0 leading-4',
+                            'collapse-title text-xs p-2 h-8 min-h-0 leading-4 truncate pr-8',
                           children: [
-                            (0, l.jsx)('span', { children: e.name }),
+                            (0, l.jsx)('span', {
+                              className: 'text-secondary',
+                              children: e.name,
+                            }),
                             (0, l.jsxs)('span', {
-                              className: 'text-secondary ml-2',
+                              className: 'ml-2',
                               children: [
                                 '@',
                                 e.source,
@@ -51399,7 +51401,8 @@
                                     children: i,
                                   }),
                                   (0, l.jsx)('div', {
-                                    className: 'whitespace-pre ml-12 flex-auto',
+                                    className:
+                                      'whitespace-pre ml-12 flex-auto truncate',
                                     dangerouslySetInnerHTML: { __html: s },
                                   }),
                                 ],
@@ -51644,7 +51647,7 @@
                 className: 'container mx-auto font-mono',
                 children: [
                   (0, l.jsx)('h1', {
-                    className: 'text-5xl font-bold text-center pt-4',
+                    className: 'text-5xl font-bold text-center pt-8',
                     children: 'Error Stack Parser',
                   }),
                   (0, l.jsx)(c, { value: n, onChange: a }),
@@ -51655,7 +51658,7 @@
                     onParse: h,
                   }),
                   (0, l.jsx)('div', {
-                    className: 'min-h-screen',
+                    className: 'min-h-screen mt-4',
                     children: (0, l.jsx)(d, {
                       loading: u,
                       output: o,
