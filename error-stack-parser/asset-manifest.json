@@ -1,0 +1,9 @@
+{
+  "files": {
+    "main.css": "./static/css/main.5fdb043f.css",
+    "main.js": "./static/js/main.dc8b1994.js",
+    "service-worker.js": "./service-worker.js",
+    "index.html": "./index.html"
+  },
+  "entrypoints": ["static/css/main.5fdb043f.css", "static/js/main.dc8b1994.js"]
+}

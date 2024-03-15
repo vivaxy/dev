@@ -1,6 +1,10 @@
 [
- {
- "name": "Browser Zoom Level",
- "link": "browser-zoom-level"
- }
+  {
+    "name": "Browser Zoom Level",
+    "link": "browser-zoom-level"
+  },
+  {
+    "name": "Error Stack Parser",
+    "link": "error-stack-parser"
+  }
 ]
