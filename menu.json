@@ -4,6 +4,10 @@
     "link": "browser-zoom-level"
   },
   {
+    "name": "Clipboard",
+    "link": "clipboard"
+  },
+  {
     "name": "Error Stack Parser",
     "link": "error-stack-parser"
   }
