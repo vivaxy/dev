@@ -19,7 +19,7 @@
     "prettier": "^3.2.5"
   },
   "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown"
+    "menu.json": "prettier --write --ignore-unknown"
   },
   "scripts": {
     "prepare": "husky"

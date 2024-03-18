@@ -1,11 +1,11 @@
 {
-  "name": "Browser Zoom Level - DevTools",
-  "short_name": "Browser Zoom Level",
+  "name": "Clipboard - DevTools",
+  "short_name": "Clipboard",
   "start_url": "./?utm_source=web_app_manifest",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
-  "description": "Detect browser zoom level",
+  "description": "Clipboard DevTools",
   "icons": [
     {
       "src": "/vivaxy.icon.48x48.png",
