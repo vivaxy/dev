@@ -1,1 +1,3 @@
+npx gps sitemap
+git add sitemap.xml
 npx lint-staged
