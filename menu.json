@@ -10,5 +10,9 @@
   {
     "name": "Error Stack Parser",
     "link": "error-stack-parser"
+  },
+  {
+    "name": "Jake Diagram Playground",
+    "link": "jake-diagram-playground"
   }
 ]
