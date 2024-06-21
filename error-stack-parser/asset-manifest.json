@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "./static/css/main.75454976.css",
-    "main.js": "./static/js/main.cc080456.js",
+    "main.js": "./static/js/main.cf2ac667.js",
     "static/js/worker.0e5748a0.worker.js": "./static/js/worker.0e5748a0.worker.js",
     "service-worker.js": "./service-worker.js",
     "index.html": "./index.html"
   },
   "entrypoints": [
     "static/css/main.75454976.css",
-    "static/js/main.cc080456.js"
+    "static/js/main.cf2ac667.js"
   ]
 }
