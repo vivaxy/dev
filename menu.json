@@ -18,5 +18,9 @@
   {
     "name": "Katex Versions",
     "link": "katex-versions"
+  },
+  {
+    "name": "Source Map For Performance Script Timing",
+    "link": "source-map-for-performance-script-timing"
   }
 ]
