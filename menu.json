@@ -12,6 +12,10 @@
     "link": "error-stack-parser"
   },
   {
+    "name": "Gzip",
+    "link": "gzip"
+  },
+  {
     "name": "Jake Diagram Playground",
     "link": "jake-diagram-playground"
   },
